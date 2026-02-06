@@ -1,17 +1,8 @@
 {
   "name": "bread-start",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Bread Start - Sourdough Starter Business",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "next": "^16.1.6",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "build": "echo 'Static site - no build needed'"
   }
 }
