@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Sourdough Starter - Bread Start</title>
+    <meta name="description" content="Order fresh, active sourdough starter. Multiple quantities available with local delivery or pickup in Central Oregon.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html">
+                    <span class="logo">🌾 Bread Start</span>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html" class="active">Order Starter</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Product Section -->
+    <section class="product-page">
+        <div class="container">
+            <div class="product-grid">
+                <div class="product-image">
+                    <div class="image-placeholder">
+                        <span class="placeholder-icon">🍞</span>
+                        <p>Fresh Sourdough Starter</p>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h1 class="product-title">Fresh Sourdough Starter</h1>
+                    <p class="product-subtitle">Active & Ready to Bake</p>
+                    
+                    <div class="product-description">
+                        <p>Our sourdough starter is fed daily with organic flour and filtered water. Each portion arrives active, bubbly, and ready to create delicious homemade bread.</p>
+                        <p><strong>Includes:</strong></p>
+                        <ul>
+                            <li>Active sourdough starter in glass jar</li>
+                            <li>Care instructions card</li>
+                            <li>Simple recipe to get you started</li>
+                        </ul>
+                    </div>
+
+                    <div class="product-options">
+                        <h3>Select Quantity</h3>
+                        <div class="quantity-grid">
+                            <label class="quantity-option">
+                                <input type="radio" name="quantity" value="small" checked>
+                                <div class="quantity-card">
+                                    <h4>Starter Kit</h4>
+                                    <p class="quantity-amount">4 oz (½ cup)</p>
+                                    <p class="quantity-price">$12</p>
+                                    <p class="quantity-desc">Perfect for beginners</p>
+                                </div>
+                            </label>
+                            <label class="quantity-option">
+                                <input type="radio" name="quantity" value="medium">
+                                <div class="quantity-card">
+                                    <h4>Baker's Choice</h4>
+                                    <p class="quantity-amount">8 oz (1 cup)</p>
+                                    <p class="quantity-price">$18</p>
+                                    <p class="quantity-desc">Most popular</p>
+                                </div>
+                            </label>
+                            <label class="quantity-option">
+                                <input type="radio" name="quantity" value="large">
+                                <div class="quantity-card">
+                                    <h4>Pro Pack</h4>
+                                    <p class="quantity-amount">16 oz (2 cups)</p>
+                                    <p class="quantity-price">$30</p>
+                                    <p class="quantity-desc">For frequent bakers</p>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="delivery-options">
+                        <h3>Delivery Method</h3>
+                        <label class="delivery-option">
+                            <input type="radio" name="delivery" value="delivery" checked>
+                            <span>Local Delivery (Free within Bend area)</span>
+                        </label>
+                        <label class="delivery-option">
+                            <input type="radio" name="delivery" value="pickup">
+                            <span>Home Pickup (Address provided after order)</span>
+                        </label>
+                    </div>
+
+                    <button class="btn btn-primary btn-large" onclick="handleOrder()">Place Order</button>
+                    
+                    <div class="product-notes">
+                        <p><small>💡 <strong>Note:</strong> Orders are prepared fresh and typically ready within 24-48 hours. You'll receive a confirmation email with pickup/delivery details.</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Bread Start. Made with ❤️ in Central Oregon.</p>
+            <p>Operating under Oregon cottage food law</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
