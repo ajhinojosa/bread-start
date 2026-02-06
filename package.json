@@ -1,8 +1,0 @@
-{
-  "name": "bread-start",
-  "version": "1.0.0",
-  "description": "Bread Start - Sourdough Starter Business",
-  "scripts": {
-    "build": "echo 'Static site - no build needed'"
-  }
-}
