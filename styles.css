@@ -676,7 +676,7 @@ p {
 /* Footer */
 .footer {
     background: var(--charcoal);
-    color: var(--pure-white);
+    color: #FFFFFF;
     text-align: center;
     padding: clamp(2rem, 5vw, 3rem) 0;
     margin-top: clamp(4rem, 8vw, 6rem);
@@ -684,7 +684,8 @@ p {
 
 .footer p {
     margin: 0.5rem 0;
-    opacity: 0.95;
+    color: #FFFFFF;
+    opacity: 1;
     font-size: clamp(0.875rem, 2vw, 1rem);
 }
 
